@@ -1,8 +1,8 @@
-import { readFileSync } from 'fs'
 import { join } from 'path'
+import {readInput} from '../utils/utils'
 
-const inputContents = readFileSync(join(__dirname, './input.txt')).toString()
-const depthRecords = inputContents.split(/\s*\n\s*/g).filter(d => d && d.length).map(d => Number(d))
+const inputPath = join(__dirname, './input.txt')
+const depthRecords = readInput(inputPath).map(d => Number(d))
 
 let totalIncreases = 0
 let windowIncreases = 0
