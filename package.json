@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "run:01": "ts-node src/01/sonarscan.ts"
+    "run:01": "ts-node src/01/sonarscan.ts",
+    "run:02": "ts-node src/02/move.ts"
   },
   "author": "swimmadude66",
   "license": "MIT",
