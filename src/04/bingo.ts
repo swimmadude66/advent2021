@@ -1,5 +1,5 @@
 import {join} from 'path'
-import {readInput} from '../utils/utils'
+import {readInput, init2dArray} from '../utils/utils'
 
 const inputPath = join(__dirname, './input.txt')
 const inputData = readInput(inputPath)
@@ -12,7 +12,7 @@ let boardData = inputData
 while(boardData.length) {
     const [row1, row2, row3, row4, row5, ...rest] = boardData
     boards.push([row1, row2, row3, row4, row5].map(rstring => rstring.split(/\s+/g)))
-    hits.push(JSON.parse(JSON.stringify([...new Array(5).fill([...new Array(5).fill(false)])])))
+    hits.push(init2dArray<boolean>(5,5, false))
     boardData = rest
 }
 

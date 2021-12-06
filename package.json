@@ -8,6 +8,7 @@
     "run:02": "ts-node src/02/move.ts",
     "run:03": "ts-node src/03/diag.ts",
     "run:04": "ts-node src/04/bingo.ts",
+    "run:05": "ts-node src/05/vent.ts",
     "build": "tsc"
   },
   "author": "swimmadude66",
