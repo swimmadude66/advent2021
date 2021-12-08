@@ -10,6 +10,7 @@
     "run:04": "ts-node src/04/bingo.ts",
     "run:05": "ts-node src/05/vent.ts",
     "run:06": "ts-node src/06/fish.ts",
+    "run:07": "ts-node src/07/whale.ts",
     "build": "tsc"
   },
   "author": "swimmadude66",
