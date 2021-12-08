@@ -4,27 +4,21 @@ import {readInput} from '../utils/utils'
 const inputPath = join(__dirname, './input.txt')
 const inputData = readInput(inputPath)
 
-const numberSignalsWorking = {
-    0: 'abcefg',
-    1: 'cf',
-    2: 'acdeg',
-    3: 'acdfg',
-    4: 'bcdf',
-    5: 'abdfg',
-    6: 'abdefg',
-    7: 'acf',
-    8: 'abcdefg',
-    9: 'abcdfg',
-}
-
-const lengthMap = Object.entries(numberSignalsWorking).reduce((m, [num, signals]) => {
-    const signalLength = signals.length
-    if (!( signalLength in m)) {
-        m[signalLength] = []
-    }
-    m[signalLength].push(num)
-    return m
-}, {})
+/**
+ *  Reference for "real" signals
+ * {
+ *   0: 'abcefg',
+ *   1: 'cf',
+ *   2: 'acdeg',
+ *   3: 'acdfg',
+ *   4: 'bcdf',
+ *   5: 'abdfg',
+ *   6: 'abdefg',
+ *   7: 'acf',
+ *   8: 'abcdefg',
+ *   9: 'abcdfg',
+ * }
+*/
 
 const displays = inputData.map(d => {
     const [digits, output] = d.split(/\s*\|\s*/g)
