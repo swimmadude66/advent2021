@@ -11,6 +11,7 @@
     "run:05": "ts-node src/05/vent.ts",
     "run:06": "ts-node src/06/fish.ts",
     "run:07": "ts-node src/07/whale.ts",
+    "run:08": "ts-node src/08/7seg.ts",
     "build": "tsc"
   },
   "author": "swimmadude66",
