@@ -47,9 +47,6 @@ const ezNums = allNumbers.reduce((count, curr) => {
 console.log(`${ezNums} digits on display are 1, 4, 7, or 8`)
 console.log(`totals: ${total}`)
 
-
-
-
 function decodeSignal(digits: string[]): {[orig: string]: number} {
     const harderNumbers = []
     const decodedNumbers: {[num: number]: string} = {}

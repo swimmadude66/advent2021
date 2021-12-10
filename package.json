@@ -12,6 +12,8 @@
     "run:06": "ts-node src/06/fish.ts",
     "run:07": "ts-node src/07/whale.ts",
     "run:08": "ts-node src/08/7seg.ts",
+    "run:09": "ts-node src/09/tubes.ts",
+    "run:10": "ts-node src/10/syntax.ts",
     "build": "tsc"
   },
   "author": "swimmadude66",
