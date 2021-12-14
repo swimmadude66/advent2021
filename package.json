@@ -15,6 +15,7 @@
     "run:09": "ts-node src/09/tubes.ts",
     "run:10": "ts-node src/10/syntax.ts",
     "run:11": "ts-node src/11/octopus.ts",
+    "run:12": "ts-node src/12/pathing.ts",
     "build": "tsc"
   },
   "author": "swimmadude66",
