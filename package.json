@@ -17,6 +17,7 @@
     "run:11": "ts-node src/11/octopus.ts",
     "run:12": "ts-node src/12/pathing.ts",
     "run:13": "ts-node src/13/origami.ts",
+    "run:14": "ts-node src/14/polymer.ts",
     "build": "tsc"
   },
   "author": "swimmadude66",
